@@ -45,7 +45,7 @@ public class GuessANumber {
 		//dice is odd/even
 				String result;
 			    //if ( randomnums % 2 == 0 )
-			      if ( randomNo.getNum() % 2 == 0){
+			      if ( randomNo.GetANumber() % 2 == 0){
 					result = "even";}
 			      else {
 			         result = "odd";

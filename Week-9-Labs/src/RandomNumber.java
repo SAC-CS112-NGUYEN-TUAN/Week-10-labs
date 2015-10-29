@@ -14,12 +14,11 @@ import java.util.Scanner;
 	}
 	
 	
-	public void GetANumber(){
+	public int GetANumber(){
 		
-		 randomNo = 0 + (int) (Math.random()*10);
-	 }
-	 public int getNum(){
-			return randomNo;
+		 randomNo = 0 + (int) (Math.random()*high);
+	 
+		 return randomNo;
 	 
 	 }
 
