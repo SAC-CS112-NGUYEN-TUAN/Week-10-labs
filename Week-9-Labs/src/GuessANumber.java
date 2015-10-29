@@ -32,6 +32,7 @@ public class GuessANumber {
 		winlose[e] = "Game is not play yet";}; // shorten codes by arrays , yay !
 		
 		randomNo.high();
+		randomNo.low();
 		randomNo.GetANumber();
 		
 		for (i = 0; i < evenguess.length; i++){
